@@ -1,0 +1,60 @@
+.construction-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 48px 44px;
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow);
+
+  @media (max-width: 768px) {
+    padding: 36px 24px;
+  }
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 24px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+.construction-card h1 {
+  font-size: 32px;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+}
+
+.construction-card p {
+  font-size: 15px;
+  line-height: 150%;
+  color: var(--text);
+}
+
+.divider {
+  width: 48px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 999px;
+  margin: 28px auto;
+  opacity: 0.6;
+}
+
+.coming-soon {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
